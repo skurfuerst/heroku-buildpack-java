@@ -8,7 +8,7 @@ BP_DIR=$(cd $(dirname $0)/..; pwd) # absolute path
 . $BP_DIR/lib/common.sh
 
 # parse args
-BUILD_DIR=$1
+BUILD_DIR=$1/backend-app
 CACHE_DIR=$2
 ENV_DIR=$3
 
